@@ -507,6 +507,11 @@ h6 a {
   .card-5q a {
     font-size: 1.2rem;
   }
+
+  .cat-main-section-child {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -519,7 +524,7 @@ h6 a {
     font-size: 1.6rem;
   }
 
-  img {
+  .card-5q img {
     width: 100%;
   }
 }
