@@ -719,20 +719,6 @@
                 </nav>
               </div>
               <div class="navbar-collapse collapse top-menu"></div>
-              <!-- <div class="searchwrap">
-              <div class="search-main container" id="search-main">
-              <!--<p class="descrip">Île en île contient une grande base littéraire, présentant des centaines d'auteurs francophones et insulaires avec des dossiers approfondis : photos, biographies, bibliographies et extraits de textes, souvents lus. 
-          Voir l'index littéraire par région (par le menu ci-dessus) ou accédez directement aux dossiers en cliquant sur le nom de l'auteur.</p>
-                <form class="navbar-form navbar-right form-inline asholder" role="search" method="get" id="searchformtop" action="">
-                  <div class="input-group" id="suggest">
-                    <input name="s" id="s" type="text" onKeyUp="suggest(this.value);" onBlur="fill();" class="search-query form-control pull-right" autocomplete="off" placeholder="Rechercher sur Île en île" data-provide="typeahead" data-items="4" data-source=''>
-                    <div class="suggestionsbox" id="suggestions" style="display: none;"> <img src="/wp-content/themes/mywiki/img/arrow1.png" height="18" width="27" class="upArrow" alt="upArrow" />
-                      <div class="suggestionlist" id="suggestionslist"></div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div> -->
               <!-- end .nav-container -->
             </div>
             <!-- end #navcont -->
@@ -802,9 +788,10 @@
                             <div class="search-input-container">
                               <input
                                 class="search-input"
+                                id="search"
                                 name="search-input"
-                                placeholder="Search"
-                                autocomplete="off"
+                                placeholder="rechercher"
+                                autocomplete="on"
                               />
                               <div class="search-auto-complete"></div>
                             </div>
@@ -817,7 +804,7 @@
                             </button>
                           </div>
                         </form>
-                        <div class="result"></div>
+                        <div id="match-list" class="result"></div>
                       </div>
                     </section>
                     <!-- end article section -->
@@ -879,26 +866,9 @@
     <!-- end footer -->
     <!-- end #maincont .container -->
     <div class="extras">
-      <script
-        type="text/javascript"
-        src="/wp-content/plugins/simply-static-pro/assets/fuse.js?ver=1.0"
-        id="ssp-fuse-js"
-      ></script>
-      <script
-        type="text/javascript"
-        src="/wp-content/plugins/simply-static-pro/assets/ssp-search.js?ver=1.0.2"
-        id="ssp-search-js"
-      ></script>
-      <script
-        type="text/javascript"
-        src="/wp-includes/js/comment-reply.min.js?ver=5.8.1"
-        id="comment-reply-js"
-      ></script>
-      <script
-        type="text/javascript"
-        src="/wp-includes/js/wp-embed.min.js?ver=5.8.1"
-        id="wp-embed-js"
-      ></script>
+      <script type="text/javascript" src="js/fuse.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+    </div>
     </div>
   </body>
 </html>
