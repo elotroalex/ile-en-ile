@@ -19,26 +19,30 @@ async function beforeUnloadListener(event) {
 
 async function searchList(searchText) {
   let raw = await fetch("data/index.json");
-  let books = await raw.json();
+  let posts = await raw.json();
   let options = {
     includeMatches: true,
+    threshold: 0.4,
     keys: ["Content", "Title"],
   };
-  let f = new Fuse(books, options);
-  let results = f.search(searchText);
+  const myIndex = Fuse.createIndex(options.keys, posts)
+  
+  let f = new Fuse(posts, options, myIndex);
+  let allResults = f.search(searchText);
+  let topTenResults = allResults.slice(0,9);
 
   if (searchText.length == 0) {
     matchList.innerHTML = "";
   }
 
-  outputHTML(results);
+  outputHTML(topTenResults);
 }
 
-// Show results in HTML
+// Show topTenResults in HTML
 
-function outputHTML(results) {
-  if (results.length > 0) {
-    const html = results
+function outputHTML(topTenResults) {
+  if (topTenResults.length > 0) {
+    const html = topTenResults
       .map(
         (match) => `
     <div class="card card-body mb-1">
