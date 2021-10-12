@@ -22,7 +22,7 @@ async function searchList(searchText) {
   let books = await raw.json();
   let options = {
     includeMatches: true,
-    keys: ["Content"],
+    keys: ["Content", "Title"],
   };
   let f = new Fuse(books, options);
   let results = f.search(searchText);
@@ -34,22 +34,6 @@ async function searchList(searchText) {
   outputHTML(results);
 }
 
-// async function searchList(searchText) {
-//   const raw = await fetch("data/list.json");
-//   const books = await raw.json();
-//   const options = {
-//     keys: ["author.lastName"],
-//   };
-//   const f = new Fuse(books, options);
-//   const results = f.search(searchText);
-
-//   if (searchText.length == 0) {
-//     matchList.innerHTML = "";
-//   }
-
-//   outputHTML(results);
-// }
-
 // Show results in HTML
 
 function outputHTML(results) {
@@ -59,7 +43,7 @@ function outputHTML(results) {
         (match) => `
     <div class="card card-body mb-1">
       <h4><a href="${match.item.Permalink}">${match.item.Title}</a></h4>
-      <small>${match.item.Content.substring(0, 200)}</small>
+      <small>${match.item.Content.substring(0, 120)}...</small>
     </div>
     `
       )
@@ -68,20 +52,3 @@ function outputHTML(results) {
     matchList.innerHTML = html;
   }
 }
-
-// function outputHTML(results) {
-//   if (results.length > 0) {
-//     const html = results
-//       .map(
-//         (match) => `
-//     <div class="card card-body mb-1">
-//       <h4><a href="#">${match.item.title}</a></h4>
-//       <small>by ${match.item.author.firstName} ${match.item.author.lastName}</small>
-//     </div>
-//     `
-//       )
-//       .join("");
-
-//     matchList.innerHTML = html;
-//   }
-// }
