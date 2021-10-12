@@ -283,6 +283,7 @@ ul li img {
 .cat-title {
   color: #ccc;
   margin-left: 0;
+  font-variation-settings: 'wght' 100;
 }
 
 .cat-main-section-child {
