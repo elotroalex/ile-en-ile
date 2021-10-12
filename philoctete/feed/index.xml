@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commentaires sur : René Philoctète	</title>
+	<atom:link href="/philoctete/feed/" rel="self" type="application/rss+xml" />
+	<link>/philoctete/</link>
+	<description>Pour valoriser la littérature et la culture du monde insulaire francophone</description>
+	<lastBuildDate>Tue, 04 Dec 2018 19:30:38 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+	<item>
+		<title>
+		Par : Haïti, cette maladie qui tue le citoyen et qui s’appelle amnésie* - Coin d&#039;Encre		</title>
+		<link>/philoctete/#comment-50</link>
+
+		<dc:creator><![CDATA[Haïti, cette maladie qui tue le citoyen et qui s’appelle amnésie* - Coin d&#039;Encre]]></dc:creator>
+		<pubDate>Sun, 16 Oct 2016 17:05:37 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost:8888/F2015013_ILE-EN-ILE/2011/12/23/philoctete/#comment-50</guid>
+
+					<description><![CDATA[[&#8230;] pour répéter le poète haïtien  René Philoctète. [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] pour répéter le poète haïtien  René Philoctète. [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

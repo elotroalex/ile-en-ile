@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commentaires sur : Aimé Césaire	</title>
+	<atom:link href="/cesaire_aime/feed/" rel="self" type="application/rss+xml" />
+	<link>/cesaire_aime/</link>
+	<description>Pour valoriser la littérature et la culture du monde insulaire francophone</description>
+	<lastBuildDate>Wed, 14 Jul 2021 18:59:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+	<item>
+		<title>
+		Par : Jacques Roche, cet enfant de la canne - Coin d&#039;Encre		</title>
+		<link>/cesaire_aime/#comment-29</link>
+
+		<dc:creator><![CDATA[Jacques Roche, cet enfant de la canne - Coin d&#039;Encre]]></dc:creator>
+		<pubDate>Wed, 13 Jul 2016 06:50:36 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost:8888/F2015013_ILE-EN-ILE/2014/11/11/cesaire/#comment-29</guid>
+
+					<description><![CDATA[[&#8230;] trêve. Ton âme vit parmi nous dans chaque rayon de soleil qui illumine nos fronts. C&#8217;est Césaire qui nous l&#8217;a appris : &#160;&#187;La mort expire dans une blanche mare de [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] trêve. Ton âme vit parmi nous dans chaque rayon de soleil qui illumine nos fronts. C&rsquo;est Césaire qui nous l&rsquo;a appris : &nbsp;&raquo;La mort expire dans une blanche mare de [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

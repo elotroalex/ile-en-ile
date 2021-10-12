@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commentaires sur : James Noël, « Poème de la main gauche » et « Jeu de mo(r)t »	</title>
+	<atom:link href="/james-noel-poeme-de-la-main-gauche-jeu-de-mort/feed/" rel="self" type="application/rss+xml" />
+	<link>/james-noel-poeme-de-la-main-gauche-jeu-de-mort/</link>
+	<description>Pour valoriser la littérature et la culture du monde insulaire francophone</description>
+	<lastBuildDate>Sun, 27 Dec 2020 19:16:44 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+</channel>
+</rss>

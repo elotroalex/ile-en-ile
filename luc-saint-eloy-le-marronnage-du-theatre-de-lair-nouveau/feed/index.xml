@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commentaires sur : Luc Saint-Éloy, Le  marronnage  du Théâtre de l&#8217;Air Nouveau	</title>
+	<atom:link href="/luc-saint-eloy-le-marronnage-du-theatre-de-lair-nouveau/feed/" rel="self" type="application/rss+xml" />
+	<link>/luc-saint-eloy-le-marronnage-du-theatre-de-lair-nouveau/</link>
+	<description>Pour valoriser la littérature et la culture du monde insulaire francophone</description>
+	<lastBuildDate>Wed, 06 Jan 2021 03:38:52 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+</channel>
+</rss>

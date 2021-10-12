@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commentaires sur : Khal Torabully	</title>
+	<atom:link href="/torabully/feed/" rel="self" type="application/rss+xml" />
+	<link>/torabully/</link>
+	<description>Pour valoriser la littérature et la culture du monde insulaire francophone</description>
+	<lastBuildDate>Tue, 06 Jul 2021 01:02:21 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+	<item>
+		<title>
+		Par : Journal 2 &#124; Alli Harris		</title>
+		<link>/torabully/#comment-64</link>
+
+		<dc:creator><![CDATA[Journal 2 &#124; Alli Harris]]></dc:creator>
+		<pubDate>Wed, 18 Jan 2017 23:05:11 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost:8888/F2015013_ILE-EN-ILE/2013/12/01/torabully/#comment-64</guid>
+
+					<description><![CDATA[[&#8230;] : /torabully/ et notre [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] : <a href="/torabully/" rel="nofollow ugc">/torabully/</a> et notre [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

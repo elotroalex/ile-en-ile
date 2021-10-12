@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commentaires sur : Max Jeanne	</title>
+	<atom:link href="/jeanne/feed/" rel="self" type="application/rss+xml" />
+	<link>/jeanne/</link>
+	<description>Pour valoriser la littérature et la culture du monde insulaire francophone</description>
+	<lastBuildDate>Tue, 06 Jul 2021 00:45:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+	<item>
+		<title>
+		Par : Les éditeurs &#38; auteurs en Guadeloupe - Tuscany19 location Blog		</title>
+		<link>/jeanne/#comment-172</link>
+
+		<dc:creator><![CDATA[Les éditeurs &#38; auteurs en Guadeloupe - Tuscany19 location Blog]]></dc:creator>
+		<pubDate>Fri, 01 May 2020 09:31:26 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost:8888/F2015013_ILE-EN-ILE/2014/12/18/jeanne/#comment-172</guid>
+
+					<description><![CDATA[[&#8230;] Max Jeanne, écrivain [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] Max Jeanne, écrivain [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

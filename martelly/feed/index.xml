@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commentaires sur : Stéphane Martelly	</title>
+	<atom:link href="/martelly/feed/" rel="self" type="application/rss+xml" />
+	<link>/martelly/</link>
+	<description>Pour valoriser la littérature et la culture du monde insulaire francophone</description>
+	<lastBuildDate>Mon, 04 Jan 2021 20:43:53 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+	<item>
+		<title>
+		Par : Interview de Stéphane Martelly autour du potomitan - Les vagabonds sans trêves		</title>
+		<link>/martelly/#comment-165</link>
+
+		<dc:creator><![CDATA[Interview de Stéphane Martelly autour du potomitan - Les vagabonds sans trêves]]></dc:creator>
+		<pubDate>Fri, 20 Dec 2019 11:01:54 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost:8888/F2015013_ILE-EN-ILE/2011/07/08/martelly/#comment-165</guid>
+
+					<description><![CDATA[[&#8230;] la création, sur les marginalités littéraires ainsi que sur les limites de l’interprétation (ici). Elle est l&#8217;auteure de nombreux ouvrage de poésie, de fiction, de livres d&#8217;art, [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] la création, sur les marginalités littéraires ainsi que sur les limites de l’interprétation (ici). Elle est l&rsquo;auteure de nombreux ouvrage de poésie, de fiction, de livres d&rsquo;art, [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Par : Livre-événement &#8211; Éloge de la mangrove &#8211; Robert Berrouët-Oriol		</title>
+		<link>/martelly/#comment-107</link>
+
+		<dc:creator><![CDATA[Livre-événement &#8211; Éloge de la mangrove &#8211; Robert Berrouët-Oriol]]></dc:creator>
+		<pubDate>Fri, 20 Oct 2017 12:41:27 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost:8888/F2015013_ILE-EN-ILE/2011/07/08/martelly/#comment-107</guid>
+
+					<description><![CDATA[[&#8230;] et à Athésia (venue de Sydney, Australie :animation et chansons). Un merci très spécial à Stéphane MartellyDarline Cothière (venue de Paris, France) qui ont apporté, avec brio et chacune à sa façon, un [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] et à Athésia (venue de Sydney, Australie :animation et chansons). Un merci très spécial à Stéphane MartellyDarline Cothière (venue de Paris, France) qui ont apporté, avec brio et chacune à sa façon, un [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

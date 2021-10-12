@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commentaires sur : Frankétienne	</title>
+	<atom:link href="/franketienne/feed/" rel="self" type="application/rss+xml" />
+	<link>/franketienne/</link>
+	<description>Pour valoriser la littérature et la culture du monde insulaire francophone</description>
+	<lastBuildDate>Mon, 28 Jun 2021 19:56:13 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+	<item>
+		<title>
+		Par : Etre intellectuel, c’est être responsable... - Coin d&#039;Encre		</title>
+		<link>/franketienne/#comment-67</link>
+
+		<dc:creator><![CDATA[Etre intellectuel, c’est être responsable... - Coin d&#039;Encre]]></dc:creator>
+		<pubDate>Mon, 06 Feb 2017 11:10:59 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost:8888/F2015013_ILE-EN-ILE/2015/06/24/franketienne/#comment-67</guid>
+
+					<description><![CDATA[[&#8230;] À ce titre, l’intellectuel, comme le courant électrique, représente un carrefour à deux pôles : l’éclaireur et le militant. Il « dispose de quantités d’outils qui lui permettent de connaître le monde[3] », nous dit le valeureux Frankétienne. [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] À ce titre, l’intellectuel, comme le courant électrique, représente un carrefour à deux pôles : l’éclaireur et le militant. Il « dispose de quantités d’outils qui lui permettent de connaître le monde[3] », nous dit le valeureux Frankétienne. [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
