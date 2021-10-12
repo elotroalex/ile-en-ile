@@ -32,10 +32,6 @@ body {
   min-height: 0;
 }
 
-.post_content a {
-  /*border-bottom:1px dotted #ccc;*/
-}
-
 p {
   margin: 8px 0 20px;
 }
@@ -68,10 +64,6 @@ ul li {
   margin-left: 2px;
   padding-left: 0px;
   /*list-style-image:url("/wp-content/themes/mywiki_child/assets/bullet.svg");*/
-}
-
-ul li:last-child {
-  /*padding-bottom:10px;*/
 }
 
 ul li img {
@@ -113,9 +105,6 @@ ul li img {
 }
 .col-md-9 {
   min-height: 0;
-}
-
-.container {
 }
 
 #content {
@@ -219,9 +208,6 @@ ul li img {
 
 .logo {
   padding: 30px 15px 0px 64px !important;
-}
-
-.navbar-header {
 }
 
 .navbar-header p {
@@ -328,12 +314,6 @@ ul li img {
 }
 
 /* media pages ----------------------------- */
-.post_content.media hr {
-  /*background:none;
-	border-bottom:1px dotted #eee;*/
-  /*margin-top:0;
-	margin-bottom:60px;*/
-}
 
 .lyte-wrapper-audio {
   margin: 45px 0 30px 0 !important;
@@ -363,21 +343,12 @@ h3 {
   /*border-bottom:1px dotted #bbb;*/
 }
 
-h3.prin {
-}
-
 h6 {
   padding-top: 15px;
 }
 
 h6 a {
   font-style: italic !important;
-}
-
-p {
-}
-
-p.attr {
 }
 
 .foot-end {
@@ -461,8 +432,7 @@ p.attr {
 .cred_copy .elem {
   width: 100%;
 }
-.cred_copy .elem.left {
-}
+
 .cred_copy .elem.right {
   text-align: right;
 }
@@ -484,8 +454,6 @@ p.attr {
 
 .sub-link {
   padding-left: 60px;
-}
-.sub-link:last-child {
 }
 
 .sub-link.audio {
