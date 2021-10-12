@@ -56,6 +56,7 @@ u {
 }
 
 ul {
+  margin-left: 1rem;
 }
 
 ul li {
@@ -65,7 +66,7 @@ ul li {
 	background-position:0 7px; */
   color: #333;
   margin-left: 2px;
-  padding-left: 15px;
+  padding-left: 0px;
   /*list-style-image:url("/wp-content/themes/mywiki_child/assets/bullet.svg");*/
 }
 
