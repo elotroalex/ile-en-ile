@@ -140,6 +140,11 @@ ul li img {
 /* index ------------------------------------ */
 .descrip-main {
   padding: 45px 30px 0;
+  font-variation-settings: 'wght' 100;
+}
+
+.descrip-main strong {
+  font-variation-settings: 'wght' 400;
 }
 
 /* topnav ----------------------------------- */
@@ -474,6 +479,8 @@ h6 a {
 .thomas-large-font {
   font-size: 120%;
 }
+
+
 
 /* FIVE QUESTIONS */
 
