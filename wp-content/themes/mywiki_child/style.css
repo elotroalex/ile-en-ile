@@ -36,6 +36,7 @@ body {
 
 p {
   margin: 8px 0 20px;
+  font-variation-settings: 'wght' 300;
 }
 
 pre {
