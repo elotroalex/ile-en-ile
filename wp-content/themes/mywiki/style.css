@@ -954,9 +954,7 @@ ul li {
 .mywiki-header-menu:after {
 	clear: both;
 }
-.mywiki-header-menu {
-	zoom: 1;
-}
+
 .mywiki-header-menu li {
 	float: left !important;
 	position: relative;
