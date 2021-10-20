@@ -39,11 +39,12 @@ var opts = {
 };
 
 var target = document.getElementById("spin-box");
-// var spinner = new Spin.Spinner(opts).spin(target);
 
 // Search the list
 
 async function searchList(searchText) {
+  var spinner = new Spin.Spinner(opts).spin(target);
+
   let raw = await fetch("data/index.json");
   let posts = await raw.json();
   let options = {
@@ -63,6 +64,7 @@ async function searchList(searchText) {
   }
 
   outputHTML(topTenResults);
+  spinner.stop();
 }
 
 // Show topTenResults in HTML
