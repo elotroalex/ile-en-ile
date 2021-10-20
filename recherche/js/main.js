@@ -1,9 +1,23 @@
 const search = document.getElementById("search");
+const form = document.getElementById("search-form");
 const matchList = document.getElementById("match-list");
 
 // Capture value of input box
 
-search.addEventListener("input", () => searchList(search.value));
+// search.addEventListener("keyup", function (event) {
+//   if (event.keyCode === 13) {
+//     event.preventDefault();
+//     () => searchList(search.value);
+//   }
+// });
+
+function handleForm(event) {
+  event.preventDefault();
+  searchList(search.value);
+}
+form.addEventListener("submit", handleForm);
+
+// search.addEventListener("submit", (e) => searchList(search.value));
 
 // Empty search box on unload
 
