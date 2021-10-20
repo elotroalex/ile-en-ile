@@ -71,21 +71,20 @@ async function searchList(searchText) {
 
   let f = new Fuse(posts, options, myIndex);
   let allResults = f.search(searchText);
-  let topTenResults = allResults.slice(0, 9);
 
   if (searchText.length == 0) {
     matchList.innerHTML = "";
   }
 
-  outputHTML(topTenResults);
+  outputHTML(allResults);
   spinner.stop();
 }
 
-// Show topTenResults in HTML
+// Show allResults in HTML
 
-function outputHTML(topTenResults) {
-  if (topTenResults.length > 0) {
-    const html = topTenResults
+function outputHTML(allResults) {
+  if (allResults.length > 0) {
+    const html = allResults
       .map(
         (match) => `
     <div class="card card-body mb-1">
