@@ -52,41 +52,44 @@ var opts = {
   position: "absolute", // Element positioning
 };
 
-const target = document.getElementById("spin-box");
+var target = document.getElementById("spin-box");
 
 // Search the list
 
 async function searchList(searchText) {
   var spinner = new Spin.Spinner(opts).spin(target);
-  const raw = await fetch("data/index.json");
-  const documents = await raw.json();
 
-  const index = lunr(function () {
-    this.ref("ID");
-    this.field("Content");
-    this.field("Title");
+  let raw = await fetch("data/index.json");
+  let posts = await raw.json();
+  let options = {
+    includeMatches: true,
+    threshold: 0.3,
+    keys: ["Content"],
+  };
 
-    documents.forEach(function (doc) {
-      this.add(doc);
-    }, this);
-  });
+  const myIndex = Fuse.createIndex(options.keys, posts);
 
-  let results = index.search(searchText).slice(0, 9);
+  let f = new Fuse(posts, options, myIndex);
+  let allResults = f.search(searchText);
 
   if (searchText.length == 0) {
     matchList.innerHTML = "";
   }
 
-  if (results.length > 0) {
-    var posts = results.map((item) => {
-      return documents.find((document) => item.ref === document.ID);
-    });
-    var html = posts
-      .map(
-        (item) => `
-    <div class="card card-body mb-1">
-      <h4><a href="">${item.Title}</a></h4>
+  outputHTML(allResults);
+  spinner.stop();
+}
 
+// Show allResults in HTML
+
+function outputHTML(allResults) {
+  if (allResults.length > 0) {
+    const html = allResults
+      .map(
+        (match) => `
+    <div class="card card-body mb-1">
+      <h4><a href="${match.item.Permalink}">${match.item.Title}</a></h4>
+      <small>${match.item.Content.substring(0, 120)}...</small>
     </div>
     `
       )
@@ -94,7 +97,4 @@ async function searchList(searchText) {
 
     matchList.innerHTML = html;
   }
-  spinner.stop();
 }
-
-// Show results in HTML
