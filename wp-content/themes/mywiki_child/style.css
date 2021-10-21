@@ -235,6 +235,18 @@ ul li img {
   background-color: transparent;
 }
 
+#match-list {
+  padding-top: 2rem;
+}
+
+.search-result {
+  padding-bottom: 1rem;
+}
+
+.search-result h4 {
+  margin-bottom: 0;
+}
+
 .search-main.container {
   width: 250px !important;
 }

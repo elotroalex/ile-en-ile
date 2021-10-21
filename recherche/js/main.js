@@ -1,14 +1,17 @@
 const search = document.getElementById("search");
 const form = document.getElementById("search-form");
 const matchList = document.getElementById("match-list");
+const target = document.getElementById("spin-box");
 
 // Capture value of input box
 
 
 function handleForm(event) {
   event.preventDefault();
+  matchList.innerHTML = "";
   searchList(search.value);
 }
+
 form.addEventListener("submit", handleForm);
 
 // Empty search box on unload
@@ -44,7 +47,8 @@ var opts = {
   position: "absolute", // Element positioning
 };
 
-const target = document.getElementById("spin-box");
+
+
 
 // Search the list
 
@@ -66,12 +70,10 @@ async function searchList(searchText) {
 
   let results = index.search(searchText).slice(0, 49);
 
-  if (searchText.length == 0) {
-    matchList.innerHTML = "";
-  }
+ 
 
   // Show results in HTML
-  
+
   if (results.length > 0) {
     var posts = results.map((item) => {
       return documents.find((document) => item.ref === document.ID);
@@ -79,7 +81,7 @@ async function searchList(searchText) {
     var html = posts
       .map(
         (item) => `
-    <div class="card card-body mb-1">
+    <div class="search-result card card-body mb-1">
       <h4><a href="${item.Permalink}">${item.Title}</a></h4>
       <small>${item.Content.substring(0, 120)}...</small>
     </div>
