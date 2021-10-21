@@ -21,8 +21,6 @@
 /* Theme customization starts here
 ------------------------------------------------------- */
 
-
-
 body {
   color: #333;
 }
@@ -36,7 +34,7 @@ body {
 
 p {
   margin: 8px 0 20px;
-  font-variation-settings: 'wght' 300;
+  font-variation-settings: "wght" 300;
 }
 
 pre {
@@ -141,11 +139,11 @@ ul li img {
 /* index ------------------------------------ */
 .descrip-main {
   padding: 45px 30px 0;
-  font-variation-settings: 'wght' 100;
+  font-variation-settings: "wght" 100;
 }
 
 .descrip-main strong {
-  font-variation-settings: 'wght' 200;
+  font-variation-settings: "wght" 200;
 }
 
 /* topnav ----------------------------------- */
@@ -247,6 +245,11 @@ ul li img {
   margin-bottom: 0;
 }
 
+.post-date {
+  display: block;
+  padding-top: 0.4rem;
+}
+
 .search-main.container {
   width: 250px !important;
 }
@@ -296,7 +299,7 @@ ul li img {
 .cat-title {
   color: #ccc;
   margin-left: 0;
-  font-variation-settings: 'wght' 100;
+  font-variation-settings: "wght" 100;
 }
 
 .cat-main-section-child {
@@ -494,8 +497,6 @@ h6 a {
   font-size: 120%;
 }
 
-
-
 /* FIVE QUESTIONS */
 
 /* Create two equal columns that sits next to each other */
@@ -532,7 +533,6 @@ h6 a {
   .cat-main-section-child {
     width: 100%;
   }
-
 }
 
 @media screen and (max-width: 1000px) {

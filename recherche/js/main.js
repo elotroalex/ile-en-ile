@@ -5,7 +5,6 @@ const target = document.getElementById("spin-box");
 
 // Capture value of input box
 
-
 function handleForm(event) {
   event.preventDefault();
   matchList.innerHTML = "";
@@ -51,12 +50,12 @@ var opts = {
 
 async function searchList(searchText) {
   var spinner = new Spin.Spinner(opts).spin(target);
-  let index = await fetch('data/lunr-index.json');
-	let indexData = await index.json();
-	let idx = lunr.Index.load(indexData);
+  let index = await fetch("data/index.json");
+  let indexData = await index.json();
+  let idx = lunr.Index.load(indexData);
 
-	let docs = await fetch('data/mini-index.json');
-	docs = await docs.json();
+  let docs = await fetch("data/posts.json");
+  docs = await docs.json();
 
   let results = idx.search(searchText).slice(0, 49);
 
@@ -66,11 +65,15 @@ async function searchList(searchText) {
     var posts = results.map((item) => {
       return docs.find((document) => item.ref === document.ID);
     });
+
+    // HTML
+
     var html = posts
       .map(
         (item) => `
     <div class="search-result card card-body mb-1">
       <h4><a href="${item.Permalink}">${item.Title}</a></h4>
+      <span class="post-date">${item.Date}</span>
       <small>${item.Content}...</small>
     </div>
     `
@@ -80,6 +83,4 @@ async function searchList(searchText) {
     matchList.innerHTML = html;
   }
   spinner.stop();
-};
-
-
+}
