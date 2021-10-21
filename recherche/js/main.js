@@ -51,33 +51,27 @@ var opts = {
 
 async function searchList(searchText) {
   var spinner = new Spin.Spinner(opts).spin(target);
-  const raw = await fetch("data/index.json");
-  const documents = await raw.json();
+  let index = await fetch('data/lunr-index.json');
+	let indexData = await index.json();
+	let idx = lunr.Index.load(indexData);
 
-  const index = lunr(function () {
-    this.ref("ID");
-    this.field("Content");
-    this.field("Title");
+	let docs = await fetch('data/mini-index.json');
+	docs = await docs.json();
 
-    documents.forEach(function (doc) {
-      this.add(doc);
-    }, this);
-  });
-
-  let results = index.search(searchText).slice(0, 49);
+  let results = idx.search(searchText).slice(0, 49);
 
   // Show results in HTML
 
   if (results.length > 0) {
     var posts = results.map((item) => {
-      return documents.find((document) => item.ref === document.ID);
+      return docs.find((document) => item.ref === document.ID);
     });
     var html = posts
       .map(
         (item) => `
     <div class="search-result card card-body mb-1">
       <h4><a href="${item.Permalink}">${item.Title}</a></h4>
-      <small>${item.Content.substring(0, 120)}...</small>
+      <small>${item.Content}...</small>
     </div>
     `
       )
@@ -86,6 +80,6 @@ async function searchList(searchText) {
     matchList.innerHTML = html;
   }
   spinner.stop();
-}
+};
 
 
