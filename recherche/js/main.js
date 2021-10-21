@@ -4,20 +4,12 @@ const matchList = document.getElementById("match-list");
 
 // Capture value of input box
 
-// search.addEventListener("keyup", function (event) {
-//   if (event.keyCode === 13) {
-//     event.preventDefault();
-//     () => searchList(search.value);
-//   }
-// });
 
 function handleForm(event) {
   event.preventDefault();
   searchList(search.value);
 }
 form.addEventListener("submit", handleForm);
-
-// search.addEventListener("submit", (e) => searchList(search.value));
 
 // Empty search box on unload
 
@@ -56,6 +48,7 @@ const target = document.getElementById("spin-box");
 
 // Search the list
 
+
 async function searchList(searchText) {
   var spinner = new Spin.Spinner(opts).spin(target);
   const raw = await fetch("data/index.json");
@@ -71,12 +64,14 @@ async function searchList(searchText) {
     }, this);
   });
 
-  let results = index.search(searchText).slice(0, 9);
+  let results = index.search(searchText).slice(0, 49);
 
   if (searchText.length == 0) {
     matchList.innerHTML = "";
   }
 
+  // Show results in HTML
+  
   if (results.length > 0) {
     var posts = results.map((item) => {
       return documents.find((document) => item.ref === document.ID);
@@ -85,8 +80,8 @@ async function searchList(searchText) {
       .map(
         (item) => `
     <div class="card card-body mb-1">
-      <h4><a href="">${item.Title}</a></h4>
-
+      <h4><a href="${item.Permalink}">${item.Title}</a></h4>
+      <small>${item.Content.substring(0, 120)}...</small>
     </div>
     `
       )
@@ -97,4 +92,4 @@ async function searchList(searchText) {
   spinner.stop();
 }
 
-// Show results in HTML
+
