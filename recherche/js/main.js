@@ -39,19 +39,15 @@ var opts = {
   direction: 1, // 1: clockwise, -1: counterclockwise
   color: "#7ab1d2", // CSS color or array of colors
   fadeColor: "transparent", // CSS color or array of colors
-  top: "75%", // Top position relative to parent
-  left: "50%", // Left position relative to parent
+  top: "80%", // Top position relative to parent
+  left: "80%", // Left position relative to parent
   shadow: "0 0 1px transparent", // Box-shadow for the lines
   zIndex: 2000000000, // The z-index (defaults to 2e9)
   className: "spinner", // The CSS class to assign to the spinner
   position: "absolute", // Element positioning
 };
 
-
-
-
 // Search the list
-
 
 async function searchList(searchText) {
   var spinner = new Spin.Spinner(opts).spin(target);
@@ -69,8 +65,6 @@ async function searchList(searchText) {
   });
 
   let results = index.search(searchText).slice(0, 49);
-
- 
 
   // Show results in HTML
 
