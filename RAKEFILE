@@ -1,8 +1,7 @@
 require 'html-proofer'
 
 task :test do
-    puts 'Let\'s run some tests...'.green
-    sh "bundle exec jekyll build"
+    puts 'Let\'s run some tests...'
     options = {
       :assume_extension => true,
       :check_favicon => true,
