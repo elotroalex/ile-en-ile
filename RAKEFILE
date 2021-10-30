@@ -6,10 +6,11 @@ task :test do
       :assume_extension => true,
       :check_favicon => true,
       :check_html => true,
-      :external_only => true,
-      :disable_external => false,
+      :external_only => false,
+      :disable_external => true,
       :allow_hash_href => true,
-      :only_4xx => true
-      }
+      :only_4xx => true,
+      :empty_alt_ignore => true
+    }
     HTMLProofer.check_directory(".", options).run
   end
