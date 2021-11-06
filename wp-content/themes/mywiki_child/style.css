@@ -23,6 +23,7 @@
 
 body {
   color: #333;
+  font-size: 1.4rem;
 }
 
 .post_content {
@@ -35,6 +36,7 @@ body {
 p {
   margin: 8px 0 20px;
   font-variation-settings: "wght" 300;
+  font-size: 15px !important;
 }
 
 pre {
@@ -62,14 +64,17 @@ ul li {
 	background-size:6px 6px;
 	background-position:0 7px; */
   color: #333;
-  margin-left: 2px;
+  font-variation-settings: "wght" 300;
+  margin-left: 2rem;
   padding-left: 0px;
+  font-size: 15px !important;
   /*list-style-image:url("/wp-content/themes/mywiki_child/assets/bullet.svg");*/
 }
 
 ul li img {
   margin: -3px 0 0 !important;
   pointer-events: none !important;
+  font-size: ;
 }
 
 .top-bg {

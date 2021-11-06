@@ -18,13 +18,13 @@ Text Domain: mywiki
 
 /****** Main CSS ******/
 body {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 p {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	color: #048eb0;
 }
 a{
@@ -243,7 +243,7 @@ table tbody tr th, table tbody tr td {
 }
 .navbar-brand, .navbar-nav > li > a {
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-size: 14px;
 	color: #1F1F1F;
 }
@@ -523,7 +523,7 @@ a.cboxElement:hover img {
 }
 .cat-main-section header h4 {
 	color: #292929;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-size: 17px;
 	margin-top: 8px;
 }
@@ -540,7 +540,7 @@ a:hover, a.wid-cat-title p:hover, a:focus {
 }
 a {
 	text-decoration: none !important;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 .cat-main-section header h4:hover {
 	color: #007895;
@@ -566,7 +566,7 @@ div {
 	cursor: default;
 }
 .wid-category span {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	margin-left: 30px;
 }
 .wid-cat-container {
@@ -582,7 +582,7 @@ a.wid-cat-title p {
 	margin-top: 15px;
 }
 .attribution {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-size: 14px;
 	width: auto;
 	float: left;
@@ -614,7 +614,7 @@ a.wid-cat-title p {
 .tagline {
 	float: left;
 	clear: left;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 /* * * * 
 
@@ -634,7 +634,7 @@ div.input-group-btn button.btn-info {
 }
 .glyphicon-search:before {
 	content: "SEARCH" !important;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-weight: 600;
 	font-stretch: semi-expanded;
 	padding-left: 30px;
@@ -703,12 +703,12 @@ hr {
 .single-title {
 	color: #017c9a;
 	font-size: 18px;
-	font-family: 'Cabin', sans-serif;	
+/* 	font-family: 'Cabin', sans-serif; */	
 	padding: 12px 0px 1px 36px;
 	margin: 0px;
 }
 .single-page {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 /************************Single.php css end**************************/
 
@@ -717,7 +717,7 @@ hr {
 #result {
 	height: 20px;
 	font-size: 16px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	color: #333;
 	padding: 5px;
 	margin-bottom: 10px;
@@ -727,7 +727,7 @@ hr {
 	padding: 25px 5px 25px 30px;
 	border: 1px #CCC solid;
 	font-size: 16px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 3px;
@@ -756,7 +756,7 @@ hr {
 	padding: 7px;
 	cursor: pointer;
 	margin: 0px 10px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-size: 14px;
 }
 .suggestionlist ul li:hover {
@@ -891,7 +891,7 @@ ul li {
 	list-style-type: none;
 	color: #048eb0;
 	font-size: 14px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	padding-bottom: 10px;
 }
 .content-according li a {
@@ -904,7 +904,7 @@ ul li {
 	font-size: 14px;
 	padding-left: 20px;
 	margin: 20px 0 20px 38px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 .wid-cat-container li:first-child {
 	margin: 15px 0 20px 38px;
@@ -1392,7 +1392,7 @@ ul li {
 	}
 }
 .cat-hadding {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
     font-size: 18px;
     color: #191919;
     text-align: left;
@@ -1412,7 +1412,7 @@ ul li {
 }
 /************************* CATEGORY **********************************/
 .cat-content {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-size: 15px;
 	color: #181818;
 	line-height: 29px;
@@ -1434,7 +1434,7 @@ ul li {
 }
 .cat-title {
 	color: #ffffff;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-size: 17px;
 }
 .cat-title span {
@@ -1448,7 +1448,7 @@ ul li {
 .tags a {
 	color: #fff;
 	font-size: 14px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	background-color: #09aad8;
 	padding: 1px 10px;
 }
@@ -1456,13 +1456,13 @@ ul li {
 }
 .tags .tags-title {
 	color: #181818;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-size: 18px;
 }
 /********************* Comment ****************************/
 
 .comment_form {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 .comment_form > .form-comment-field {
 	width: 31%;
@@ -1497,11 +1497,11 @@ ul li {
 	width: 100%;
 }
 #respond > h3 {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-size: 19px;
 }
 #commentform small {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-weight: normal;
 }
 #commentform p {
@@ -1517,7 +1517,7 @@ ul li {
 	height: 32px;
 	width: 100%;
 	padding: 2px 5px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	outline:0;
 }
 #commentform input[type='submit'] {
@@ -1525,7 +1525,7 @@ ul li {
 	color: #FFF;
 	border: 0px;
 	padding: 5px 5px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	outline:0;
 }
 #commentform textarea {
@@ -1534,17 +1534,17 @@ ul li {
 	height: 143px;
 	width: 100%;
 	padding: 5px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	outline:0;
 }
 #main > h3 {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-size: 22px;
 	font-weight: normal;
 }
 ol.commentlist {
 	float: left;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	font-weight: normal;
 	list-style: none outside none;
 	width: 100%;
@@ -1662,14 +1662,14 @@ input {
 	height: 32px;
 	width: 60%;
 	padding: 2px 5px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 textarea {
 	border-radius: 3px;
 	border: #cfcfcf solid 1px;
 	width: 60%;
 	padding: 2px 5px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 input[type="submit"] {
 	cursor: pointer;
@@ -1678,7 +1678,7 @@ input[type="submit"] {
 	color: #FFF;
 	border: 0px;
 	padding: 5px 5px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 	width: 30%
 }
 .search-submit{
@@ -1692,7 +1692,7 @@ input[type="submit"] {
 }
 .mywiki_breadcrumbs {
 	margin-bottom: 20px;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 .mywiki-nav-next {
 	float: right;
@@ -1713,10 +1713,10 @@ input[type="submit"] {
 	padding-bottom: 9px;
 }
 .comments-title {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 .mywiki_breadcrumbs .current {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 .post-meta-entry {
 	font-size: 13px;
@@ -1737,17 +1737,17 @@ input[type="submit"] {
 }
 .header-theme-text {
 	color: rgb(41, 41, 41);
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 .header-text {
 	color: #048EB0;
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 .sidebar select {
 	max-width: 100%;
 }
 .sidebar h1, .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6, .sidebar .h1, .sidebar .h2, .sidebar .h3, .sidebar .h4, .sidebar .h5, .sidebar .h6 {
-	font-family: 'Cabin', sans-serif;
+/* 	font-family: 'Cabin', sans-serif; */
 }
 
 /* Responsive Style */
@@ -1768,7 +1768,7 @@ input[type="submit"] {
 	#home-main .page-catheader .page-title {
 		
 		font-size: 24px;
-		font-family: 'Cabin', sans-serif;
+	/* 	font-family: 'Cabin', sans-serif; */
 		color: #048eb0;
 		padding-top: .5%;
 	}
@@ -1798,7 +1798,7 @@ input[type="submit"] {
 	#home-main .page-catheader .page-title {
 		
 		font-size: 24px;
-		font-family: 'Cabin', sans-serif;
+	/* 	font-family: 'Cabin', sans-serif; */
 		color: #048eb0;
 		padding-top: .5%;
 	}
@@ -1828,7 +1828,7 @@ input[type="submit"] {
 	#home-main .page-catheader .page-title {
 		
 		font-size: 24px;
-		font-family: 'Cabin', sans-serif;
+	/* 	font-family: 'Cabin', sans-serif; */
 		color: #048eb0;
 		padding-top: .5%;
 	}
@@ -1841,7 +1841,7 @@ input[type="submit"] {
 	#home-main .page-catheader .page-title {
 		
 		font-size: 24px;
-		font-family: 'Cabin', sans-serif;
+	/* 	font-family: 'Cabin', sans-serif; */
 		color: #048eb0;
 		padding-top: .5%;
 	}
@@ -1849,7 +1849,7 @@ input[type="submit"] {
  @media (min-width: 1280px) {
 	#home-main .page-catheader .page-title {		
 		font-size: 24px;
-		font-family: 'Cabin', sans-serif;
+	/* 	font-family: 'Cabin', sans-serif; */
 		color: #048eb0;
 		margin-top: 10px;
 		margin-bottom: 10px;
